@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tap Tempo Metronome</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Metronome</h1>
+  <div id="tempo">—</div>
+  
+  <div class="buttons">
+    <button id="tapButton">Tap</button>
+    <button id="stopButton">Stop</button>
+     <button id="tripletButton">Triplets: Off</button>
+  </div>
+
+  <div class="slider">
+    <label for="volume">Volume</label>
+     <input
+    type="range"
+    id="volume"
+    min="0"
+    max="100"
+    value="90"
+    step="1"/>
+  </div>
+  <small>Tap at least twice to set tempo</small>
+
+<script src="script.js"></script>
+</body>
+</html>
