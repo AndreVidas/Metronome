@@ -1,0 +1,55 @@
+    body {
+      font-family: system-ui, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: #f6f8fa;
+      gap: 20px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+    #tempo {
+      font-size: 4rem;
+      font-weight: bold;
+      color: #333;
+    }
+    .buttons {
+      display: flex;
+      gap: 12px;
+    }
+    button {
+      padding: 14px 30px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 100px;
+      background: #007bff;
+      color: white;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    button:active {
+      transform: scale(0.95);
+    }
+    #stopButton {
+      background: #dc3545;
+    }
+    #stopButton:hover {
+      background: #a71d2a;
+    }
+
+    #tripletButton {
+      background: #35dc40;
+    }
+    #tripletButton:hover {
+      background: #28a831;
+    }
+    small {
+      color: #666;
+    }
